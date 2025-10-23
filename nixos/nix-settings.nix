@@ -4,7 +4,7 @@
   # Nix Configuration
   nix.settings = {
     experimental-features = [ "nix-command" "flakes" ];    
-    # trusted-users = [ "root" "xnm" ];
+    # trusted-users = [ "root" "whit" ];
     substituters = [
       "https://cache.nixos.org"
       "https://numtide.cachix.org"

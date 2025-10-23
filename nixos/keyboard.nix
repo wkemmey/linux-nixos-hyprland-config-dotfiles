@@ -6,11 +6,11 @@
     xkb.options = "grp:alt_shift_toggle";
   };
 
-  environment.systemPackages = with pkgs; [
-    klavaro
-    gtypist
-    via
-  ];
+  #environment.systemPackages = with pkgs; [
+  #  klavaro
+  #  gtypist
+  #  via
+  #];
 
   # services.kanata = {
   #   enable = true;
