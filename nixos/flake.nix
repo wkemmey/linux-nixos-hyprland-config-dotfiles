@@ -16,7 +16,8 @@
       specialArgs = { inherit inputs; };
       modules = [
         ./configuration.nix
-        ./hardware-configuration.nix
+        #./hardware-configuration.nix
+        /etc/nixos/hardware-configuration.nix
         ./nvidia.nix
         ## ./disable-nvidia.nix
         ./opengl.nix
@@ -64,8 +65,8 @@
         ./info-fetchers.nix
         ./dev-tools.nix
         ./terminal.nix
-        ./llm.nix
-        ./work.nix
+        #./llm.nix
+        #./work.nix
       ];
     };
   };
