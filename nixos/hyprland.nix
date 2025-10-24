@@ -20,7 +20,7 @@
 
   environment.systemPackages = with pkgs; [
     waybar #temp
-    rofi-wayland #temp
+    rofi #temp
     kitty #temp
     pyprland
     hyprpicker
