@@ -20,11 +20,11 @@
     LC_TIME = "en_US.UTF-8";
   };
 
-  environment.systemPackages = with pkgs; [
-    nuspell
-    hyphen
-    hunspell
-    hunspellDicts.en_US
-    hunspellDicts.id_ID
-  ];
+  #environment.systemPackages = with pkgs; [
+  #  nuspell
+  #  hyphen
+  #  hunspell
+  #  hunspellDicts.en_US
+  #  hunspellDicts.id_ID
+  #];
 }

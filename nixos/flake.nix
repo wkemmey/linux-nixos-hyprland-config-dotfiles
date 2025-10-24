@@ -4,8 +4,8 @@
 
   inputs = {
       nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-      rust-overlay.url = "github:oxalica/rust-overlay";
-      wezterm.url = "github:wez/wezterm?dir=nix";
+      #rust-overlay.url = "github:oxalica/rust-overlay";
+      #wezterm.url = "github:wez/wezterm?dir=nix";
       #nix-ai-tools.url = "github:numtide/nix-ai-tools";
       #radicle-tui.url = "git+https://seed.radicle.xyz/z39mP9rQAaGmERfUMPULfPUi473tY.git?rev=dcc51b96a90d6e63cd69fae7f29e896f13816a1f";
   };
@@ -20,7 +20,7 @@
         /etc/nixos/hardware-configuration.nix
         #./nvidia.nix
         ## ./disable-nvidia.nix
-        ./opengl.nix
+        #./opengl.nix
         ## ./fingerprint-scanner.nix
         ## ./clamav-scanner.nix
         #./yubikey.nix
@@ -29,42 +29,42 @@
         #./keyboard.nix
         ./time.nix
         #./swap.nix
-        ./bootloader.nix
+        #./bootloader.nix
         ./nix-settings.nix
         ./nixpkgs.nix
-        ./gc.nix
+        #./gc.nix
         ## ./auto-upgrade.nix
         #./linux-kernel.nix
-        ./screen.nix
+        #./screen.nix
         ## ./location.nix
         ./display-manager.nix
-        ./theme.nix
+        #./theme.nix
         ./internationalisation.nix
         ./fonts.nix
         #./security-services.nix
-        ./services.nix
+        #./services.nix
         ## ./printing.nix
         ## ./gnome.nix
         ./hyprland.nix
-        ./environment-variables.nix
-        ./bluetooth.nix
+        #./environment-variables.nix
+        #./bluetooth.nix
         ./networking.nix
         ## ./mac-randomize.nix
         ## ./open-ssh.nix
         #./mosh.nix
         ./firewall.nix
-        ./dns.nix
-        ./vpn.nix
+        #./dns.nix
+        #./vpn.nix
         ./users.nix
-        ./virtualisation.nix
+        #./virtualisation.nix
         #./programming-languages.nix
         #./lsp.nix
         #./rust.nix
         #./radicle.nix
-        ./wasm.nix
-        ./info-fetchers.nix
-        ./dev-tools.nix
-        ./terminal.nix
+        #./wasm.nix
+        #./info-fetchers.nix
+        #./dev-tools.nix
+        #./terminal.nix
         #./llm.nix
         #./work.nix
       ];

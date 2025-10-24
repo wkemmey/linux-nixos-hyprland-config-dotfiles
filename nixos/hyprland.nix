@@ -13,6 +13,9 @@
   services.hypridle.enable = true;
 
   environment.systemPackages = with pkgs; [
+    waybar
+    rofi-wayland
+    kitty
     pyprland
     hyprpicker
     hyprcursor
