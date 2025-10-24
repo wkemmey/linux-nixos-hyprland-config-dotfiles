@@ -57,9 +57,9 @@
         ./vpn.nix
         ./users.nix
         ./virtualisation.nix
-        ./programming-languages.nix
-        ./lsp.nix
-        ./rust.nix
+        #./programming-languages.nix
+        #./lsp.nix
+        #./rust.nix
         #./radicle.nix
         ./wasm.nix
         ./info-fetchers.nix
