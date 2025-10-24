@@ -18,7 +18,7 @@
         ./configuration.nix
         #./hardware-configuration.nix
         /etc/nixos/hardware-configuration.nix
-        ./nvidia.nix
+        #./nvidia.nix
         ## ./disable-nvidia.nix
         ./opengl.nix
         ## ./fingerprint-scanner.nix
