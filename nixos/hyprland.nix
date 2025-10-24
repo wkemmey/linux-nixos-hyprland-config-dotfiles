@@ -12,10 +12,16 @@
   programs.hyprlock.enable = true;
   services.hypridle.enable = true;
 
+  programs.fish.enable = true; #temp
+
+  boot.loader.grub.enable = true; #temp
+  boot.loader.grub.device = "/dev/sda"; #temp
+  boot.loader.grub.useOSProber = true; #temp
+
   environment.systemPackages = with pkgs; [
-    waybar
-    rofi-wayland
-    kitty
+    waybar #temp
+    rofi-wayland #temp
+    kitty #temp
     pyprland
     hyprpicker
     hyprcursor
